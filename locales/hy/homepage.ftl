@@ -1,12 +1,12 @@
 ## index.hbs
 
-tagline = Язык, позволяющий каждому { $linebreak } создавать надёжное и эффективное программное обеспечение
-get-started = Начало
-homepage-version = Версия { $number }
+tagline = Լեզու, որը բոլորին հնարավորություն { $linebreak } է տալիս ստեղծել հուսալի և շադ արագ ծրագրային ապահովում։
+get-started = Սկսել
+homepage-version = { $number } տարբերակ
 
 ## components/panels/production.hbs
 
-production-title = Промышленное использование Rust
+production-title = Rust-ի արդյունաբերական օգտագործումը
 production-blurb = Сотни компаний по всему миру используют Rust в реальных проектах для быстрых кросс-платформенных решений с ограниченными ресурсами. Такие проекты, как <a href="https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/">Firefox</a>, <a href="https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/">Dropbox</a> и <a href="https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/">Cloudflare</a>, используют Rust. <strong>Rust отлично подходит как для стартапов, так и для больших компаний, как для встраиваемых устройств, так и для масштабируемых web-сервисов.</strong>
 production-testimonial-npm = Мой самый большой комплимент Rust &mdash; то, что он скучный, и это потрясающий комплимент.
 production-testimonial-npm-attribution = Chris Dickinson, инженер npm, Inc
@@ -17,37 +17,34 @@ production-testimonial-yelp-alt = Логотип Yelp
 
 ## components/panels/language-values.hbs
 
-language-values-performance = Производительность
-language-values-performance-blurb = Rust невероятно быстр и эффективен по использованию памяти: без рантайма или сборщика мусора он может обеспечить работу критичных для производительности сервисов, запускаться на встраиваемых устройствах и легко интегрироваться с другими языками.
-language-values-reliability = Надёжность
-language-values-reliability-blurb = Богатая система типов Rust и модель владения гарантируют потокобезопасность и безопасность памяти, и позволяют устранить множество классов ошибок во время компиляции.
-language-values-productivity = Продуктивность
-language-values-productivity-blurb = У Rust отличная документация, дружественный компилятор с полезными сообщениями об ошибках и первоклассный инструментарий &mdash; интегрированный пакетный менеджер и инструмент сборки, умная мультиредакторная поддержка с автокомплитом, проверками типов, автоформатированием и многим другим.
+language-values-performance = Արագություն
+language-values-performance-blurb = Rust - ը աներևակայելի արագ է և հիշողության օգտագործման առումով շատ արդյունավետ: Առանց գործարկման ժամանակի կամ աղբահանության, այն կարող է ապահովել կրիտիկական հատվածների բարձր արագությունը, աշխատել ներկառուցված սարքերի վրա և հեշտությամբ ինտեգրվել այլ լեզուների հետ:
+language-values-reliability = Հուսալիություն
+language-values-reliability-blurb = Rust - ի հարուստ տիպերի համակարգը և կառավարման մոդելը ապահովում են հիշողության և հոսքերի անվտանգությունը՝ Հնարավորություն տալով շատ տեսակի սխալներ հանել կոմպիլյացիայի ժամանակ։
+language-values-productivity = Պրոդուկտիվություն
+language-values-productivity-blurb = Rust - ը ունի հիանալի ուղեցույց, ընկերական կոմպիլյատոր՝ օգտակար հուշումներով և առաջատար գործիքներով &mdash; ինտեգրված փաթեթների կառավարումով և գործիքներով, խելացի խմբագրիչական աջակցություն ավտոմատ լրացմամբ և տիպերի ստուգումներով և այլն։
 
 ## components/panels/domains.hbs
 
-domains-title = Создайте это в Rust
-domains-blurb = В 2018 году, сообщество Rust приняло решение расширить присутствие языка для нескольких областей (смотрите <a href="https://blog.rust-lang.org/2018/03/12/roadmap.html">roadmap на 2018 год</a>). Для этого вы можете найти множество высококачественных пакетов и потрясающие руководства о том, как начать.
-domains-cli = Командная строка
-domains-cli-blurb = Быстро создайте инструмент командной строки с помощью надёжной экосистемы Rust. Rust поможет вам с уверенностью поддерживать ваше приложение и с лёгкостью его распространять.
+domains-title = Կառուցեք այն Rust - ում
+domains-blurb = 2018 թվականին Rust համայնքը որոշեց ընդլայնել լեզվի ներկայությունը մի քանի ոլորտներում (տես <a href="https://blog.rust-lang.org/2018/03/12/roadmap.html">2018 թ.-ի ճանապարհային քարտեզը</a>). Դուք կարող եք գտնել բազմաթիվ բարձրորակ փաթեթներ և պարզ ուղեցույցներ, թե ինչպես սկսել սովորել։
+domains-cli = Հրամանային տող
+domains-cli-blurb = Արագ ստեղծեք CLI գործիք՝ օգտագործելով Rust-ի հուսալի էկոհամակարգը: Rust-ը կօգնի ձեզ տարածել ձեր հավելվածը և հեշտությամբ ընդլայնել այն:
 domains-cli-alt = terminal
 domains-wasm = WebAssembly
-domains-wasm-blurb = Используйте Rust для перезарядки вашего JavaScript, по одному модулю за раз. Опубликуйте в npm, упакуйте с webpack и вы готовы к соревнованиям.
-domains-wasm-alt = шестерёнка в виде элементов пазла
-domains-net = Сетевое программирование
-domains-net-blurb = Предсказуемая производительность. Крошечные требования к ресурсам. Потрясающая надёжность. Rust отлично подходит для сетевых сервисов.
-domains-net-alt = облако с узлами
-domains-embedded = Встраиваемые системы
-domains-embedded-blurb =
-    Ориентируетесь на устройства с малой производительностью?
-    Нужен низкоуровневый контроль без отказа от высокоуровневых удобств?
-    Rust предоставит это.
-domains-embedded-alt = плата встраиваемого устройства
+domains-wasm-blurb = Օգտագործեք Rust-ը ձեր JavaScript-ին մեծ արագություն տալու համար: Ստեղծեք մոդուլ և հրապարակեք npm-ում, փաթեթավորեք webpack-ով և դուք պատրաստ եք մրցելու:
+domains-wasm-alt = WebAssembly
+domains-net = Ցանցեր
+domains-net-blurb = Կանխատեսելի արագություն։ Քիչ ռեսուրսների պահանջներ: Զարմանալի հուսալիություն։ Rust-ը հիանալի է ցանցային և սերվերային ծառայությունների համար:
+domains-net-alt = Embedded
+domains-embedded = Embedded
+domains-embedded-blurb = Ցանկանում ե՞ք քիչ ռեսուրս ունեցող սարքեր ծրագրավորել և Ցածր մակարդակում վերահսկման կարիք ունե՞ք՝ չհրաժարվելով բարձր մակարդակի հարմարավետությունից: Rust-ը դա կապահովի:
+domains-embedded-alt = ներկառուցված սարքի տախտակ
 
 ## components/panels/get-involved.hbs
 
-get-involved = Примите участие
-get-involved-read-rust = Читай про Rust
+get-involved = Միացի՛ր
+get-involved-read-rust = Կարդա Rust-ի մասին
 get-involved-read-rust-blurb = Мы любим документацию! Посмотрите книги, доступные онлайн, а также ключевые блоги и пользовательские руководства.
 get-involved-read-rust-link = Читать книгу
 get-involved-watch-rust = Смотрите про Rust

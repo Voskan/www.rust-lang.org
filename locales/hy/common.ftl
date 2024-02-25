@@ -1,48 +1,48 @@
 ## Translations that appear on many pages
 
 rust = Rust
-get-started-exclamation = Начнём!
-getting-started = Начало работы
-why-rust = Почему Rust?
-production-use = Промышленное использование
-learn-more = Узнать больше
+get-started-exclamation = Եկեք սկսենք!
+getting-started = Աշխատանքի սկիզբը
+why-rust = Ինչու՞ Rust-ը
+production-use = Արդյունաբերական կիրառություն
+learn-more = Իմանալ ավելին
 discord = Discord
 zulip = Zulip
 mastodon = Mastodon
 
 ## components/panels/domain.hbs
 
-cli-learn-more = Инструменты сборки
-wasm-learn-more = Написание web-приложений
-net-learn-more = Работа на сервере
-embedded-learn-more = Начать с Embedded
+cli-learn-more = Տարբեր գործիքներ
+wasm-learn-more = Վեբ-ծրագրերի ստեղծում
+net-learn-more = Աշխատանք սերվերում
+embedded-learn-more = Սկսեք Embedded-ից
 
 ## components/layout.hbs
 
-meta-description = Язык, позволяющий каждому создавать надёжное и эффективное программное обеспечение.
-page-title = { $pagename } - Язык программирования Rust
-index-title = Язык программирования Rust
+meta-description = Լեզու, որը թույլ է տալիս բոլորին ստեղծել հուսալի և արդյունավետ ծրագրակազմ:
+page-title = { $pagename } - Rust ծրագրավորման լեզու
+index-title = Rust ծրագրավորման լեզու
 
 ## components/nav.hbs
 
-nav-install = Установка
-nav-learn = Изучить
-nav-tools = Инструменты
-nav-governance = Управление
-nav-community = Сообщество
-nav-blog = Блог
-nav-playground = Песочница
-choose-language = Язык
-nav-logo-alt = Логотип Rust
+nav-install = Տեղադրում
+nav-learn = Սովորել
+nav-tools = Գործիքներ
+nav-governance = Կառավարում
+nav-community = Համայնք
+nav-blog = Բլոգ
+nav-playground = Փորձարկելի միջավայր
+choose-language = Լեզու
+nav-logo-alt = Rust-ի լոգոն
 
 ## components/footer.hbs
 
-footer-doc = Документация
-footer-ask = Задать вопрос на пользовательском форуме
-footer-sup-doc = Rust Forge (Документация для контрибьюторов)
-footer-policies = Условия и политики
-footer-coc = Правила поведения
-footer-licenses = Лицензии
+footer-doc = Ուղեցույց
+footer-ask = Հարց տալ օգտվողների ֆորումում
+footer-sup-doc = Rust Forge (Ուղեցույց աջակիցների համար)
+footer-policies = Պայմաններ և քաղաքականություն
+footer-coc = Վարքի կանոններ
+footer-licenses = Լիցենզիաներ
 footer-media = Руководство по политике в отношении логотипов и СМИ
 footer-security = Отчёты об уязвимостях
 footer-policies-all = Все политики
